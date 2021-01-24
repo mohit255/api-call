@@ -30,4 +30,5 @@ function CallAPI($method, $url, $data = false)
     curl_close($curl);
 
     return $result;
+
 }
